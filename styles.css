@@ -1,42 +1,142 @@
+body{
+  background-color: #f2f2f2;
+}
+
+
 .main-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-form div{
-    width: 350px;
-    height: 500px;
-    background-color: white;
-    border: 0.5px solid dimgrey;
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  border: 0.5px solid #d9d9d9;
 
 }
 
-.form-label label{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    font-size: 40px;
-    font-family: 'Lobster';
-    font-weight: light;
+.insta{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 40px;
+  font-family: 'Lobster';
+  font-weight: lighter;
+  cursor: pointer;
 }
 
 
 .form-label input{
-    width: 300px;
-    height: 30px;
+  width: 300px;
+  height: 30px;
 }
 
 .input-1{
-    margin-top: 50px;
-    margin-left: 20px;
-    padding-left: 10px;
-    
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-family: monospace;
+  border-radius: 3px;
+  border: 0.5px solid  #b3b3b3 ; 
+  background-color:  #f2f2f2;
+
 }
 
 .input-2{
-    margin-top: 10px;
-    margin-left: 20px;
-    padding-left: 10px;
-    
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-family: monospace;
+  border-radius: 3px;
+  border: 0.5px solid  #b3b3b3;
+  background-color:  #f2f2f2;
+
+  
+
 }
+
+.login{
+  margin-top: 15px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-family: monospace;
+  width: 315px;
+  height: 30px;
+  background-color: #cceeff;
+  border:30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login label{
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+
+h6 {
+  display: flex;
+  flex-direction: row;
+  color: #b3b3b3;
+  
+  
+}
+
+h6:before,
+h6:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #cccccc;
+  margin: 20px;
+ 
+}
+
+.btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 50px;
+ width: 250px;
+ cursor: pointer;
+ background-color: white;
+ border: 30px;
+ 
+}
+.btn img{
+  width: 20px;
+  height: 20px;
+}
+
+.btn label{
+  padding-left: 10px;
+  font-family: monospace;
+  font-weight: bold;
+  cursor: pointer;
+  color:  #005580;
+}
+
+.btn-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 250px;
+  cursor: pointer;
+  background-color: white;
+  border: 30px;
+  
+ }
+
+.btn-1 label{
+  padding-left: 10px;
+  font-family: monospace;
+  cursor: pointer;
+  margin-top: 20px;
+  color:  #005580;
+}
+
+
+
+
