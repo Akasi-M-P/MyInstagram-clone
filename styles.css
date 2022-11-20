@@ -138,5 +138,61 @@ h6:after {
 }
 
 
+#no-acc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#no-acc {
+  height: 60px;
+  margin-top: 40px;
+}
+
+#no-acc p{
+  font-family: monospace;
+  font-size: 15px;
+  color:  black;
+
+}
+
+#no-acc label{
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+  color:  #4da6ff;
+  
+}
+
+#g-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#g-app{
+  padding-top: 80px;
+  font-family: monospace;
+  font-size: 13px;
+  color:  black;
+}
+
+#store{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#store img{
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
+  margin: 5px;
+
+}
+
+
 
 
