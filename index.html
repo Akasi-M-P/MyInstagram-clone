@@ -12,6 +12,7 @@
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="insta.js"></script>
 </head>
 <link rel="stylesheet" href="styles.css">
 <body>
@@ -21,6 +22,7 @@
 
                 <input class="input-1" type="text" name="username" placeholder="Phone number, username or email address">
                 <input class="input-2" type="password" name="password" placeholder="Password">
+                
 
                 <button class="login"><label>Log In</label></button>
 
@@ -43,6 +45,136 @@
     <div id="store">
         <img src="images/gstore.png"/><img src="images/gmicro.png"/>
     </div>
+
+    <div id="footer">
+        <div><label>Meta</label> <label>About</label> <label>Blog</label> <label>Jobs</label> <label>Help</label> <label>API</label> <label>Privacy</label> <label>Terms</label> <label>Top accounts</label> <label>Hashtags</label> <label>Locations</label> <label>Instagram Lite</label> <label>Contact uploading and non-users</label></div>
+    </div>
+
+    <div id="lang"><select id="languages" name="languages">
+        <option>English (UK)</option>
+        <option value="af">Afrikaans</option>
+        <option value="sq">shqip</option>
+        <option value="am">አማርኛ</option>
+        <option value="ar">العربية</option>
+        <option value="an">aragonés</option>
+        <option value="hy">հայերեն</option>
+        <option value="ast">asturianu</option>
+        <option value="az">azərbaycan dili</option>
+        <option value="eu">euskara</option>
+        <option value="be">беларуская</option>
+        <option value="bn">বাংলা</option>
+        <option value="bs">bosanski</option>
+        <option value="br">brezhoneg</option>
+        <option value="bg">български</option>
+        <option value="ca">català</option>
+        <option value="ckb">کوردی (دەستنوسی عەرەبی)</option>
+        <option value="zh">中文</option>
+        <option value="zh-HK">中文（香港）</option>
+        <option value="zh-CN">中文（简体）</option>
+        <option value="zh-TW">中文（繁體）</option>
+        <option value="co">Corsican</option>
+        <option value="hr">hrvatski</option>
+        <option value="cs">čeština</option>
+        <option value="da">dansk</option>
+        <option value="nl"></option>
+        <option value="en"></option>
+        <option value="en-GB">English(UK)</option>
+        <option value="en-US">English(US)</option>
+        <option value="eo">esperanto</option>
+        <option value="et">eesti</option>
+        <option value="fo">føroyskt</option>
+        <option value="fil">Filipino</option>
+        <option value="fi">suomi</option>
+        <option value="fr">français</option>
+        <option value="gl">galego</option>
+        <option value="ka">ქართული</option>
+        <option value="de">Deutsch</option>
+        <option value="de-AT">Österreich</option>
+        <option value="el">Ελληνικά</option>
+        <option value="gn">Guarani</option>
+        <option value="gu">ગુજરાતી</option>
+        <option value="ha">Hausa</option>
+        <option value="haw">ʻŌlelo Hawaiʻi</option>
+        <option value="he">עברית</option>
+        <option value="hi">हिन्दी</option>
+        <option value="hu">magyar</option>
+        <option value="is">íslenska</option>
+        <option value="id">Indonesia</option>
+        <option value="ia">Interlingua</option>
+        <option value="ga">Gaeilge</option>
+        <option value="it">italiano</option>
+        <option value="ja">日本語</option>
+        <option value="kn">ಕನ್ನಡ</option>
+        <option value="kk">қазақ тілі</option>
+        <option value="km">ខ្មែរ</option>
+        <option value="ko">한국어</option>
+        <option value="ku">Kurdî</option>
+        <option value="ky">кыргызча</option>
+        <option value="lo">ລາວ</option>
+        <option value="lv">latviešu</option>
+        <option value="ln">lingála</option>
+        <option value="lt">lietuvių</option>
+        <option value="mk">македонски</option>
+        <option value="ms">Bahasa Melayu</option>
+        <option value="ml">മലയാളം</option>
+        <option value="mt">Malti</option>
+        <option value="mr">मराठी</option>
+        <option value="mn">монгол</option>
+        <option value="ne">नेपाली</option>
+        <option value="no">norsk</option>
+        <option value="nb">norsk bokmål</option>
+        <option value="nn"></option>
+        <option value="oc">Occitan</option>
+        <option value="or">ଓଡ଼ିଆ</option>
+        <option value="om">Oromoo</option>
+        <option value="ps">پښتو</option>
+        <option value="fa">فارسی</option>
+        <option value="pl">polski</option>
+        <option value="pt"> português</option>
+        <option value="pt-BR">português</option>
+        <option value="pa">ਪੰਜਾਬੀ</option>
+        <option value="qu">Quechua</option>
+        <option value="ro">română</option>
+        <option value="mo">român</option>
+        <option value="rm">rumantsch</option>
+        <option value="ru">русский</option>
+        <option value="gd">Gaelic</option>
+        <option value="sr">српски</option>
+        <option value="sh">Croatian</option>
+        <option value="sn">SchiShona</option>
+        <option value="sd">Sindhi</option>
+        <option value="si">සිංහල</option>
+        <option value="sk">slovenčina</option>
+        <option value="sl">slovenščina</option>
+        <option value="so">Soomaali</option>
+        <option value="es-US">español </option>
+        <option value="su">Sundanese</option>
+        <option value="sw">Kiswahili</option>
+        <option value="sv">svenska</option>
+        <option value="tg">тоҷикӣ</option>
+        <option value="ta"> தமிழ்</option>
+        <option value="tt"></option>
+        <option value="te">తెలుగు</option>
+        <option value="th">ไทย</option>
+        <option value="ti"> ትግርኛ</option>
+        <option value="to">lea fakatonga</option>
+        <option value="tr"> Türkçe</option>
+        <option value="tk">Turkmen</option>
+        <option value="tw">Twi</option>
+        <option value="uk">українська</option>
+        <option value="ur"> اردو</option>
+        <option value="ug">Uyghur</option>
+        <option value="uz">o‘zbek</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="wa">wa</option>
+        <option value="cy">Cymraeg</option>
+        <option value="xh">Xhosa</option>
+        <option value="yi">Yiddish</option>
+        <option value="yo">Èdè Yorùbá</option>
+        <option value="zu">isiZulu</option>
+    </select> <label>© 2022 Instagram from Meta</label></div>
+
+    
 
 </body>
 
